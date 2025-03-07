@@ -11,7 +11,7 @@ body{
     text-align: center;
     width: 550px;
     height: 729px;
-    border: 2px solid navajowhite;
+    border: 20px solid #453a5a;
 }
 
 .section1{
@@ -67,6 +67,26 @@ body{
     color: #3D3D3D;
 }
 
+#convertbtn:hover{
+    width: 117px;
+    height: 42px;
+    background-color: #3D3D3D;
+    border-radius: 5px;
+    border: none;
+    font-family: "Inter";
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color:#f1e9e9 ;
+}
+
+#convertbtn:active{
+    transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+
 .section2{
     height: 444px;
     background-color: #f1e9e9;
@@ -103,9 +123,9 @@ body{
 }
 
 .conversions{
-    width: 346px;
+    width: 380px;
     height: 25px;
-    margin: 9px 77px 18.57px 77px;
+    margin: 9px auto 18.57px auto;
     font-family: "Inter";
     font-size: 14px;
     line-height: 20px;
