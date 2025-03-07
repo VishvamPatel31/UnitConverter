@@ -1,0 +1,114 @@
+body{
+    background-color: #273549;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main{
+    text-align: center;
+    width: 550px;
+    height: 729px;
+    border: 2px solid navajowhite;
+}
+
+.section1{
+    height: 285px;
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    width: 448.4px;
+    height: 38px;
+    line-height: 38px;
+    letter-spacing: -3%;
+    font-family: "Inter";
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 0px;
+    color:  #f1e9e9;
+    font-size: 28px;
+    margin: 33px 50.6px 30px 51px;
+}
+
+#input{
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    font-family: "Inter";
+    font-weight: bolder;
+    font-size: 58px;
+    line-height: 24.4px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 25px;
+    margin-top: 0px; 
+    color:  #f1e9e9;
+
+}
+
+#convertbtn{
+    width: 117px;
+    height: 42px;
+    background-color:  #f1e9e9;
+    border-radius: 5px;
+    border: none;
+    font-family: "Inter";
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D3D3D;
+}
+
+.section2{
+    height: 444px;
+    background-color: #f1e9e9;
+    
+}
+
+#sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 372.57px;
+    padding: 36px 25px 35.43px 25px;
+}
+.subsections{
+    background-color: white;
+    height: 108.57px;
+    width: 500px;
+}
+
+#metric{
+    height: 25px;
+    width: 346px;
+    text-align: center;
+    margin-top: 31px;
+    margin-right: 77px;
+    margin-left: 77px;
+    font-family: "Inter", sans-serif;
+    color: #5A537B;
+    font-weight:500;
+    line-height: 20px;
+    font-size: 20px;
+    padding-top:0px
+}
+
+.conversions{
+    width: 346px;
+    height: 25px;
+    margin: 9px 77px 18.57px 77px;
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+    
+}
